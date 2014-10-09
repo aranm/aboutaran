@@ -1,0 +1,227 @@
+﻿<!doctype html>
+<html>
+<head lang="en">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+   <title>Aran Mulholland</title>
+   <link rel="stylesheet" media="screen" href="~/Content/css">
+</head>
+<body class="zeroMargin">
+   <div id="headline">
+      <div class="container">
+         <header>
+            <h1>The answer to life the universe and everything is 42</h1>
+            <p>(unfortunately the question got lost)</p>
+         </header>
+         <div id="blurb">
+            <p>Hi! My name is Aran Mulholland, here is a little bit about myself.</p>
+            <ul>
+               <li>I’ve been programming since I was 8.</li>
+               <li>I’m a geek but not a nerd. (A geek is a nerd with fashion sense)</li>
+               <li>I love coding and computers.</li>
+               <li>I hate résumés (Résumé - From the latin for elaborate lie laid out in an Arial font)</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="foregroundColour6 highlight-module highlight-module--left highlight-module--learning">
+      <div class="highlight-module__container icon-star">
+         <div class="highlight-module__content g-wide--push-1 g-wide--pull-1 g-medium--push-1">
+            <p class="highlight-module__title">TL;DR</p>
+            <p>Technology Experience</p>
+            <ul class="highlight-module__list">
+               <li>Bachelor Computer Science RMIT Melbourne</li>
+               <li>C#, ASP.NET MVC, Web API, Linq, Windows Azure</li>
+               <li>JavaScript</li>
+               <li>Unit test experience in multiple platforms and languages</li>
+               <li>SOLID code, CI, Build Monkey</li>
+               <li>Objective-C, xCode, iOS development</li>
+               <li>Node.js</li>
+               <li>Neo4j Graph database (NoSQL) experience</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div id="section0" class="backgroundColour5">
+      <div class="container">
+         <h2>Places you can find me</h2>
+         <ul>
+            <li><a href="http://stackoverflow.com/users/100652/aran-mulholland" target="_blank">stackoverflow</a></li>
+            <li><a href="https://github.com/aranm" target="_blank">github</a></li>
+            <li><a href="https://twitter.com/aranmul" target="_blank">twitter</a></li>
+            <li>aranmulholland [at] gmail.com</li>
+         </ul>
+      </div>
+   </div>
+   <div id="section1" class="backgroundColour5">
+      <div class="container">
+         <h2>Desktop software</h2>
+         <p>
+            I have been working with and then leading a small development team for the past 6 years.
+            The company I have been working for is heavily invested in the Microsoft tool set.
+         </p>
+         <p>
+            My original task when I joined the company was to rewrite a legacy system using C# and WPF.
+            The original software was written in Visual Basic and was used by schools to enter student assessments,
+            analyse the data and produce final reports to send home to parents. It was a large system that we rewrote
+            with hundreds of thousands of lines of code.
+         </p>
+         <p>While working on that project the following occurred:</p>
+         <ul>
+            <li>I became proficient using the Visual Studio IDE</li>
+            <li>Learnt the basics of C# and the CLR</li>
+            <li>Got an in depth knowledge of WPF (Windows Presentation Framework)</li>
+            <li>Built custom user interface controls using WPF</li>
+            <li>Became a master of data grids. (Our software used them extensively for entry and I know them back to front)</li>
+            <li>Communicated with clients </li>
+            <li>Spent a lot of time using the MVVM pattern</li>
+         </ul>
+      </div>
+   </div>
+   <div id="section2" class="backgroundColour4">
+      <div class="container">
+         <h2>Onward to the Web</h2>
+         <p>
+            As the web revolution took hold in the education sector we transitioned
+            our software to a web based application running on premise at the various schools.
+         </p>
+      </div>
+   </div>
+   <div id="section3" class="backgroundColour5">
+      <div class="container">
+         <h2>Client side web</h2>
+         <p>
+            The first steps in moving to a web developer were depressing. To the newcomer it felt like web was
+            layers and layers of hacks piled on top of each other. There was no separation between the model
+            and the view. You had horrid examples of jQuery code that would do things like hit the server and then
+            construct html elements and insert them into the DOM. The issues I found with this kind of coding was:
+         </p>
+         <ul>
+            <li>No clear business model</li>
+            <li>No separation of model and view</li>
+            <li>No easy way for a developer and a designer to collaborate, you had to be a bit of both</li>
+            <li>Violation of the Single Responsibility Principle</li>
+            <li>Violation of the Liskov substitution principle (meaning no easy way to run unit tests)</li>
+         </ul>
+         <p>
+            We went through a couple of iterations of designs building more separation between the layers but
+            it was not until we implemented a combination of work by
+            <a href="http://www.youtube.com/watch?v=b5pFv9NB9fs" target="_blank">Nicholas Zachas on scalable Javascript application frameworks</a>,
+            <a href="http://requirejs.org/" target="_blank">require.js</a>
+            and <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a> that I felt that
+            we had a <a href="https://github.com/aranm/scalable-javascript-architecture" target="_blank">system we could build on</a>. Knockout.js is loosely based on WPF so I felt very comfortable there.
+            Data binding enabled updating the view and the business model with a clear separation. We now had a system that:
+         </p>
+         <ul>
+            <li>Had a clear separation of concerns (data, business, view)</li>
+            <li>Could substitute the data layer for a mock</li>
+            <li>Could test the JavaScript business layer in isolation</li>
+            <li>Easily collaborate with designers</li>
+            <li>Could write client side JavaScript without being a designer (which is very important for me as I am not a designer, nor will I ever be)</li>
+         </ul>
+         <p>
+            With the patterns and practices in place I became a lover of JavaScript. It is a much maligned language
+            with some very vocal critics but when you know it and know it well it's a beautiful little language. It's
+            small, easy to learn and easy to implement most common design patterns. (Dependency Injection is a bit tricky)
+            It is also easy to abuse (but which language isn't) which has led to a lot of hacks.
+         </p>
+      </div>
+   </div>
+   <div id="section4" class="backgroundColour4">
+      <div class="container">
+         <h2>Server side web</h2>
+         <p>
+            The server side web coding is beautiful. ASP.NET MVC has been growing with leaps and bounds.
+            On the server side I pushed for the new patterns that I had been studying. I had been watching a lot of
+            <a href="http://www.pluralsight.com/courses/principles-oo-design" target="_blank">pluralsight.com</a> courses and we
+            ended up with a system that had:
+         </p>
+         <ul>
+            <li>Interface based programming</li>
+            <li>Dependency Injection using the <a href="http://docs.castleproject.org/Windsor.MainPage.ashx" target="_blank">Castle Windsor IOC container</a></li>
+            <li>
+               <a href="https://github.com/Moq/moq" target="_blank">Mocks</a> that could be substituted for
+               the <a href="http://www.mindscapehq.com/products/lightspeed" target="_blank">ORM</a> we were using enabling very easy unit testing
+            </li>
+            <li>Clear separation of layers (data, services, data contracts and web service methods)</li>
+            <li>Ability to unit test all layers</li>
+            <li>Had a server side <a href="https://github.com/aranm/SpellChecker" target="_blank">spell checker</a> (that I wrote and am kind of proud of - it's a pleasant hack.)</li>
+         </ul>
+      </div>
+   </div>
+   <div id="section5" class="backgroundColour5">
+      <div class="container">
+         <h2>To the Cloud</h2>
+         <p>
+            The natural progression of installing on site web solutions was to move to the cloud and as we were
+            heavily invested in the Microsoft stack Azure was the logical choice. I loved this development as I really dig
+            infrastructure. There was a fair bit to do to ensure that we could run a multi-tenanted solution which
+            used multiple databases and had thousands of users with different authentication needs and run data and CPU
+            intensive tasks. Along the way I did:
+         </p>
+         <ul>
+            <li>CI builds and deployment to Azure Web Sites, Web and Worker Roles from on premise TFS</li>
+            <li>Azure Web Sites</li>
+            <li>Azure Web Roles</li>
+            <li>Azure Worker Roles</li>
+            <li>Used the <a href="http://requirejs.org/docs/optimization.html" target="_blank">r.js (require.js) optimiser</a> with Node.js for JavaScript minification as an MSBuild task</li>
+            <li>Table storage</li>
+            <li>Queues</li>
+            <li>Hybrid authentication model using email and password combination and <a href="http://msdn.microsoft.com/library/azure/hh147631.aspx" target="_blank">ACS</a> (For Google, Facebook and Microsoft accounts)</li>
+            <li>Database provisioning for each new client using Azure Queues and Worker Roles</li>
+         </ul>
+      </div>
+   </div>
+   <div id="section6" class="backgroundColour4">
+      <div class="container">
+         <h2>Side projects</h2>
+         <p class="tekKitVideoInfo">
+            I don't stop. In the past few years I have worked with multiple technologies and written a few iOS apps.
+            I have a keen interest in a wide range of music and have worked on a couple of different music apps. I
+            wrote my own dual drum machine and effects unit for the iPad and the iPhone. I haven't done any updates
+            on it in a couple of years as I am working on different things. Through this work I have a good working
+            knowledge of the Core Audio framework in iOS as well as a pretty good understanding of iOS development.
+         </p>
+         <iframe class="tekKitVideo" src="//www.youtube.com/embed/Zqn_sUQD_g0" frameborder="0" allowfullscreen></iframe>
+         <p>As a result of the work I did here I have worked on some side projects including:</p>
+         <ul>
+            <li>Audio engine for <a href="http://www.qusik.com/" target="_blank">Qusik</a></li>
+            <li>
+               Worked with <a href="http://www.casafuturatech.com/" target="_blank">casafuturatech</a> to produce:
+               <ul>
+                  <li><a href="http://www.casafuturatech.com/iparkinsons/" target="_blank">An iPhone app for Parkinsons patients</a> to help them talk clearly</li>
+                  <li>The audio engine infrastructure for <a href="http://www.casafuturatech.com/mpistutter/" target="_blank">an iPhone app for people who stutter</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <div id="section7" class="backgroundColour4">
+      <div class="container">
+         <p>
+            We have a daughter who was recently diagnosed with type one diabetes and I have been working in my spare
+            time on an app that parents can use to check in on their children's blood sugar readings. At the moment
+            it is just a prototype ASP.NET MVC web application running in Azure. The school teachers enter the readings
+            and any associated notes and my wife and I can monitor her from where ever we are. As I have written a few
+            iOS apps I will eventually make an app that is used to enter and get these readings. As such I have been
+            very interested in iOS 8 as it now has HealthKit.
+         </p>
+         <p>
+            I have been designing a follow on app from the drum machine DJ app I wrote that has a more social aspect.
+            In order to do this I have been learning about the graph database Neo4j. Originally I started writing the server for
+            this in a C# project using the Web API but have recently moved my code base to Node.js as handling JSON is
+            easier in JavaScript than C# and I wanted to learn something new. I ended up writing
+            <a href="https://github.com/aranm/simpleNeo4js" target="_blank">a very simple Neo4j access library for Node.js</a>
+            The package is also published on <a href="https://www.npmjs.org/package/simpleneo4js" target="_blank">npm.org</a>.
+            Part of the challenge of writing a social network from scratch is the news feed.
+            <a href="http://gist.neo4j.org/?8d55c23a84d9c94dd4f2" target="_blank">
+               Here is some research
+               I have been doing with linked lists for a news feed in Neo4j for a social network
+            </a>
+         </p>
+      </div>
+   </div>
+   <footer>
+      <p></p>
+   </footer>
+</body>
+</html>
