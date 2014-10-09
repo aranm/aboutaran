@@ -1,4 +1,4 @@
-#headline {
+﻿#headline {
     padding: 0.8em;
     font-family: Roboto, sans-serif;
     background-size: cover;
@@ -2551,7 +2551,7 @@ li > p {
 }
 /* line 75, ../_sass/_modules/_highlight.scss */
 .highlight-module--learning:after {
-    background-color: #da2e75;
+    background-color: #00CC33;
 }
 /* line 79, ../_sass/_modules/_highlight.scss */
 .highlight-module--learning a {
